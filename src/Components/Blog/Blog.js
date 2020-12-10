@@ -8,12 +8,25 @@ import onlineJobs from '../../images/onlineJobs.png';
 import opportunity from '../../images/opportunity.png';
 import graduateDegree from '../../images/graduateDegree.png';
 import maintain from '../../images/maintain.png';
+import humanitiesStudents from '../../images/humanitiesStudents.png';
+import gratitudeBudget from '../../images/gratitudeBudget.png';
+import studentpreneur from '../../images/studentpreneur.png';
 import './Blog.css';
+
+
+
 
 const Blog = () => {
     return (
         <section >
             <h1 className='text-center'>Blog</h1>
+            {/* <div className="container">
+                <div className="btn-group text-center" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                </div>
+            </div> */}
             <div className="blog">
                 <div className="mt-3 container">
                     <div className="card  mb-3">
@@ -128,6 +141,39 @@ const Blog = () => {
                                 {/* <div className="date text-right">
                                 <h6>{new Date().toTimeString()}</h6>
                             </div> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="card-group">
+                            <div className="col-md-4 col-12">
+                                <div className="card">
+                                    <img className="card-img-top" src={humanitiesStudents} alt="Card image cap" />
+                                    <div className="card-body">
+                                        <h3 className="card-title">15 Side Hustle Ideas for Humanities Students</h3>
+                                        <h5 className="card-text">The Humanities are a large field, including subjects as widespread as theater, visual arts, film, music, English language and literature, history, and foreign languages. If you’re studying the Humanities, you have probably had someone ask you how you plan to make money with that degree</h5>
+                                        <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4 col-12 mt-2 mt-md-0">
+                                <div className="card">
+                                    <img className="card-img-top" src={gratitudeBudget} alt="Card image cap" />
+                                    <div className="card-body">
+                                        <h3 className="card-title">The Studentpreneur Show Episode Seventeen: Taking Advantage of College Accelerators – With MyFetalLife creator, Riya Shah</h3>
+                                        <h5 className="card-text">Like most businesses, Riya also has the guidance and support of a board of advisors, investors, and a great tech team. Riya’s mom also helps her make wise decisions through it all.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4 col-12 mt-2 mt-md-0">
+                                <div class="card">
+                                    <img className="card-img-top" src={studentpreneur} alt="Card image cap" />
+                                    <div className="card-body">
+                                        <h3 className="card-title">Expressing Gratitude on a Budget: A Guide for College Students</h3>
+                                        <h5 className="card-text">But how exactly does one give thanks when there isn’t much stuffing in the bank account? When short on both time and cash, finding meaningful ways to express appreciation can be tricky. College students have a plethora of people to show gratitude toward: friends, family, professors, advisors, mentors, bosses, etc.</h5>
+                                        {/* <p class="card-text"><small class="text-muted">{new Date(2020,3,10).toTimeString()}</small></p> */}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
