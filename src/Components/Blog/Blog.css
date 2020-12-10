@@ -1,0 +1,22 @@
+ .blog h1, h3, h4, h5{
+     color: grey;
+ }
+ .blog{
+     background: #F6FAFD;
+     padding: 20px;
+ }
+ .card{
+     width: 100%;
+    padding: 15px;
+    box-shadow: 0px 5px 5px 5px rgb(224, 219, 219);
+}
+.card-group .card{
+    height: 750px;
+}
+.awesomeImg {
+    height: 450px;
+}
+
+.awesomeImg img {
+    height: 100%
+}
