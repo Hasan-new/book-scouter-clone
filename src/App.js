@@ -9,13 +9,22 @@ import Home from './Component/Home/Home/Home';
 
 function App() {
   return (
+    <>
     <Router>
-      <Switch>
-        <Route exact path="/">
+        <Switch>
+          <Route path='/'>
           <Home/>
-        </Route>
-      </Switch>
+          </Route>
+          <Route path='/blog'>
+          <Blog></Blog> 
+          </Route>
+          
+        </Switch>
     </Router>
+      {/* added my burj-al-arab's appID */}
+      <MessengerCustomerChat pageId="107001421277135" appId="655923621786742" />
+    </>
+
   );
 }
 
