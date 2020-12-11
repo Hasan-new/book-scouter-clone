@@ -10,10 +10,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-<<<<<<< HEAD
-=======
     "react-messenger-customer-chat": "^0.8.0",
->>>>>>> 3c6d3773c0428493b25c7b0bb548337da1506ded
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"

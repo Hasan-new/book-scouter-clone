@@ -5,18 +5,20 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from './Component/Home/Home/Home';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+import Home from './Components/Home/Home/Home';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
     <>
     <Router>
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
           <Home/>
           </Route>
           <Route path='/blog'>
-          <Blog></Blog> 
+            <Blog /> 
           </Route>
           
         </Switch>
