@@ -1,0 +1,32 @@
+.cardPart{
+    height: 13rem;
+    margin-top: 1.7rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px 5px lightgray;
+}
+.cardStyle{
+    box-shadow: 1px 1px 5px 5px lightgray;
+    padding: 1rem;
+    margin-top: 1.7rem;
+}
+.cardPart img {
+    width: 10rem;
+}
+.iconStyle{
+    color: orangered;
+    font-size: 1.3rem;
+    margin: 0.1rem;
+}
+.ankor{
+    color: orangered;
+}
+.icon{
+    margin-top: 1.5rem;
+}
+h1{
+    color: gray;
+    padding: 1rem;
+}
+h6{
+    color: gray;
+}

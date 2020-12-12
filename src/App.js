@@ -8,6 +8,10 @@ import {
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Home from './Components/Home/Home/Home';
 import Blog from './Components/Blog/Blog';
+import VendorList from './Components/Vendor/VendorList/VendorList';
+import NormalVendorDetails from './Components/Vendor/VendorDetails/NormalVendorDetails';
+import BuyVendorDetails from './Components/Vendor/VendorDetails/BuyVendorDetails';
+import PreferredVendorDetails from './Components/Vendor/VendorDetails/PreferredVendorDetails';
 
 function App() {
   return (
@@ -19,6 +23,18 @@ function App() {
           </Route>
           <Route path='/blog'>
             <Blog /> 
+          </Route>
+          <Route path='/vendor'>
+            <VendorList></VendorList> 
+          </Route>
+          <Route path='/preferred/:preferredId'>
+            <PreferredVendorDetails></PreferredVendorDetails> 
+          </Route>
+          <Route path='/normal/:normalId'>
+            <NormalVendorDetails></NormalVendorDetails>
+          </Route>
+          <Route path='/buy/:buyId'>
+             <BuyVendorDetails></BuyVendorDetails>
           </Route>
           
         </Switch>

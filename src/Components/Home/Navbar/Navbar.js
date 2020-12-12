@@ -15,7 +15,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto" style={{ marginLeft: 'auto' }}>
               <li class="nav-item">
-                <Link to="/">
+                <Link to="/vendor">
                   <a class="nav-link mr-5 active" aria-current="page" href="#">VENDOR</a>
                 </Link>
               </li>
