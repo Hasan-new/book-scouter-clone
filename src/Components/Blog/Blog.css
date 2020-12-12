@@ -1,4 +1,4 @@
- .blog h1, h3, h4, h5{
+ .blog h1,h2, h3, h4, h5{
      color: grey;
  }
  .blog{
@@ -21,7 +21,7 @@
     height: 100%
 }
 
-/* .btn-group{
-    display: flex;
-    justify-content: center;
+/* .category .btn{
+    background: lightgray;
+
 } */
