@@ -1,0 +1,14 @@
+.pro{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px
+}
+
+.proItems{
+    padding: 10px;
+}
+
+.proItems h1, h5, h4{
+    color: rgb(97, 92, 92);
+   font-weight: bold;
+}

@@ -8,6 +8,7 @@ import {
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Home from './Components/Home/Home/Home';
 import Blog from './Components/Blog/Blog';
+import Pro from './Components/Pro/Pro';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
           <Route path='/blog'>
             <Blog /> 
           </Route>
-          
+          <Route path='/pro'> 
+            <Pro />
+          </Route>
         </Switch>
     </Router>
       {/* added my burj-al-arab's appID */}
