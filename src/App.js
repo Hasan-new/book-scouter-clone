@@ -12,6 +12,9 @@ import VendorList from './Components/Vendor/VendorList/VendorList';
 import NormalVendorDetails from './Components/Vendor/VendorDetails/NormalVendorDetails';
 import BuyVendorDetails from './Components/Vendor/VendorDetails/BuyVendorDetails';
 import PreferredVendorDetails from './Components/Vendor/VendorDetails/PreferredVendorDetails';
+import Pro from './Components/Pro/Pro';
+import General from './Components/Blog/General/General';
+import Vendors from './Components/Blog/Vendors/Vendors';
 
 function App() {
   return (
@@ -37,6 +40,15 @@ function App() {
              <BuyVendorDetails></BuyVendorDetails>
           </Route>
           
+          <Route path='/general'>
+            <General />
+          </Route>
+          <Route paht='/vendors'>
+            <Vendors />
+          </Route>
+          <Route path='/pro'> 
+            <Pro />
+          </Route>
         </Switch>
     </Router>
       {/* added my burj-al-arab's appID */}

@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../../images/logo.png';
 import { Link } from 'react-router-dom';
+import Contact from '../../Contact/Contact';
 
 const Navbar = () => {
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  }
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  }
+
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,25 +39,24 @@ const Navbar = () => {
               </li>
               <li class="nav-item">
                 <Link to="/blog">
-                  <a class="nav-link mr-5" href="#">BLOG</a>
+                  <a class="nav-link mr-5" href="/blog">BLOG</a>
                 </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link mr-5" href="#">PRO</a>
+                <a class="nav-link mr-5" href="/pro">PRO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mr-5" href="#">CONTACT</a>
+                <a class="nav-link mr-5" onClick={openModal} style={{cursor: 'pointer'}}>CONTACT</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mr-5" href="#">REGISTER</a>
               </li>
-
-
             </ul>
 
           </div>
         </div>
       </nav>
+      <Contact modalIsOpen={modalIsOpen} closeModal={closeModal} />
     </div>
   );
 };

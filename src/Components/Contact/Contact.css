@@ -1,0 +1,10 @@
+/* .modal{
+    width: 500px;
+    box-shadow: 0px 5px 5px 5px lightgray;
+} */
+.contact-form{
+    width: 500px;
+    padding: 40px;
+    
+    border: none;
+}
