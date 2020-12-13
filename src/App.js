@@ -15,6 +15,7 @@ import PreferredVendorDetails from './Components/Vendor/VendorDetails/PreferredV
 import Pro from './Components/Pro/Pro';
 import General from './Components/Blog/General/General';
 import Vendors from './Components/Blog/Vendors/Vendors';
+import Tools from './Components/Tools/Tools';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path='/buy/:buyId'>
              <BuyVendorDetails></BuyVendorDetails>
+          </Route>
+          <Route path='/tool'>
+            <Tools></Tools> 
           </Route>
           
           <Route path='/general'>

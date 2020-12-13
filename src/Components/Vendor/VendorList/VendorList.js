@@ -4,9 +4,12 @@ import { PreferredSell, NormalSell, BuySell } from '../../FakeData/FakeData';
 import PreferredVendor from './PreferredVendor';
 import NormalVendor from './NormalVendor';
 import BuyVendor from './BuyVendor'
+import Navbar from '../../Home/Navbar/Navbar';
 
 const VendorList = () => {
     return (
+        <>
+        <Navbar></Navbar>
         <div className="container">
             <h1 className="text-center">Vendors List</h1>
             <div className="row text-center">
@@ -28,6 +31,7 @@ const VendorList = () => {
                 }
             </div>
         </div>
+        </>
     );
 };
 

@@ -3,6 +3,7 @@
     margin-top: 1.7rem;
     padding: 1rem;
     box-shadow: 1px 1px 5px 5px lightgray;
+    cursor: pointer;
 }
 .cardStyle{
     box-shadow: 1px 1px 5px 5px lightgray;
@@ -28,5 +29,12 @@ h1{
     padding: 1rem;
 }
 h6{
+    color: gray;
+}
+.toolCard{
+    border: 1px solid lightslategray;
+    height: 20rem;
+}
+p{
     color: gray;
 }

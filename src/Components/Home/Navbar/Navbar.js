@@ -28,11 +28,13 @@ const Navbar = () => {
             <ul class="navbar-nav ml-auto" style={{ marginLeft: 'auto' }}>
               <li class="nav-item">
                 <Link to="/vendor">
-                  <a class="nav-link mr-5 active" aria-current="page" href="#">VENDOR</a>
+                  <a class="nav-link mr-5 active" aria-current="page" href="/vendor">VENDOR</a>
                 </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link mr-5" href="#">TOOLS</a>
+              <Link to="/tool">
+                  <a class="nav-link mr-5" href="/tool">TOOLS</a>
+                </Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link mr-5" href="#">TIPS</a>
