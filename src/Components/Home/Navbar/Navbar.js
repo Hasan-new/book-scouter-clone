@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from '../../../images/logo.png';
 import { Link } from 'react-router-dom';
 import Contact from '../../Contact/Contact';
-
+import './Navbar.css'
 const Navbar = () => {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -17,9 +17,9 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img className="img-fluid" style={{ width: '20%', paddingLeft: '7%' }} src={logo} alt="" />
+          <a href='/'><img className="img-fluid"  style={{ width: '70%', paddingLeft: '50px', marginLeft: '100px' }} src={logo} alt="" /></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
